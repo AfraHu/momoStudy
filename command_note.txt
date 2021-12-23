@@ -1,0 +1,23 @@
+初始操作
+
+git config --global user.name "Lin Momo"
+git config --global user.email "18983235402@163.com"
+
+pwd 目录查看
+cd D:/Files/git   改变目录
+mkdir EnglishStudy   创建目录
+git init /d/Files/git/EnglishStudy  初始化项目
+ls -ah 或者 dir   查看目录文件列表
+git add readme.txt      添加文件,在commit前可以add txt1 txt2 txt3多个文件
+git commit -m "说明"     提交文件,提示 file changed,可以一次性提交多个add文件
+
+git status     查看当前仓库状态,文件是否变动
+git diff readme.txt     查看文件改动的内容
+改动后仍需用git add 和git commit  再次提交
+
+
+版本回退
+
+
+
+
