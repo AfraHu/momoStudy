@@ -18,6 +18,14 @@ git diff readme.txt     查看文件改动的内容
 
 版本回退
 
+git log   查看修改历史,提交记录
+git log --pretty=oneline   简化日志记录
+git reset --hard HEAD^    回退到上一版本
+cat readme.txt  查看回退后的内容
+git reset --hard commit id    利用commit id回到回退前的版本,版本号没必要写全，前几位就可以了，Git会自动去找.
+
+Git的版本回退速度非常快，因为Git在内部有个指向当前版本的HEAD指针.
+
 
 
 
