@@ -1,0 +1,11 @@
+Question 001
+Failed to connect to github.com port 443:connection timed out
+Method: Cancel global proxy
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+Question 002
+ ! [remote rejected] master -> master (push declined due to email privacy restrictions)
+error: failed to push some refs to 'https://github.com/'
+Method: Github setting->emails:
+Uncheck the Block command line pushes that expose my email
