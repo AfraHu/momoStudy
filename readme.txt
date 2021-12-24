@@ -1,2 +1,1 @@
-1
-My stupid boss still prefers SVN.
+stupid
