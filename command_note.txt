@@ -8,9 +8,9 @@ cd D:/Files/git   改变目录
 mkdir EnglishStudy   创建目录
 git init /d/Files/git/EnglishStudy  初始化项目
 ls -ah 或者 dir   查看目录文件列表
-git add readme.txt      添加文件,在commit前可以add txt1 txt2 txt3多个文件
-git commit -m "说明"     提交文件,提示 file changed,可以一次性提交多个add文件
-
+git add readme.txt      添加文件,在commit前可以add txt1 txt2 txt3多个文件,实际上就是把文件修改添加到暂存区(stage)
+git commit -m "说明"     提交文件,提示 file changed,可以一次性提交多个add文件.实际上就是把暂存区的所有内容提交到当前分支(master)
+你可以简单理解为，需要提交的文件修改通通放到暂存区，然后，一次性提交暂存区的所有修改。
 git status     查看当前仓库状态,文件是否变动
 git diff readme.txt     查看文件改动的内容
 改动后仍需用git add 和git commit  再次提交
