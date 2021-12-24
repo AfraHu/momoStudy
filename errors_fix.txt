@@ -22,4 +22,5 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Basically, you have to merge those new initialized files with your work. 
 git pull fetches and merges for you. 
 "$git pull origin master" to merge files, then "$git push origin master"
-
+The error possibly comes because of the different structure of the code that you are committing and that present on GitHub. 
+It creates conflicts.
